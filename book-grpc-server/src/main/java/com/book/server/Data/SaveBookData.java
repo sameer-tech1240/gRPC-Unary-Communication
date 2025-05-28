@@ -1,0 +1,125 @@
+package com.book.server.Data;
+
+import com.book.server.entity.Book;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class SaveBookData {
+    public static List<Book> books = Arrays.asList(
+            new Book(1, "Effective Java", "Joshua Bloch", "Programming", 2018),
+            new Book(2, "Clean Code", "Robert Martin", "Programming", 2008),
+            new Book(3, "The Alchemist", "Paulo Coelho", "Fiction", 1988),
+            new Book(4, "Thinking, Fast and Slow", "Daniel Kahneman", "Psychology", 2011),
+            new Book(5, "1984", "George Orwell", "Dystopian", 1949),
+            new Book(6, "To Kill a Mockingbird", "Harper Lee", "Fiction", 1960),
+            new Book(7, "The Pragmatic Programmer", "Andrew Hunt", "Programming", 1999),
+            new Book(8, "The Catcher in the Rye", "J.D. Salinger", "Fiction", 1951),
+            new Book(9, "Sapiens", "Yuval Noah Harari", "History", 2011),
+            new Book(10, "Deep Work", "Cal Newport", "Self-Help", 2016),
+            new Book(11, "The Lean Startup", "Eric Ries", "Business", 2011),
+            new Book(12, "The Hobbit", "J.R.R. Tolkien", "Fantasy", 1937),
+            new Book(13, "Clean Architecture", "Robert Martin", "Programming", 2017),
+            new Book(14, "Harry Potter and the Sorcerer's Stone", "J.K. Rowling", "Fantasy", 1997),
+            new Book(15, "The Great Gatsby", "F. Scott Fitzgerald", "Fiction", 1925),
+            new Book(16, "Thinking in Java", "Bruce Eckel", "Programming", 2006),
+            new Book(17, "The Art of War", "Sun Tzu", "Philosophy", -500),
+            new Book(18, "Meditations", "Marcus Aurelius", "Philosophy", 180),
+            new Book(19, "Cracking the Coding Interview", "Gayle Laakmann McDowell", "Programming", 2015),
+            new Book(20, "The Power of Habit", "Charles Duhigg", "Self-Help", 2012),
+
+            new Book(21, "The Road", "Cormac McCarthy", "Fiction", 2006),
+            new Book(22, "The Clean Coder", "Robert Martin", "Programming", 2011),
+            new Book(23, "The Name of the Wind", "Patrick Rothfuss", "Fantasy", 2007),
+            new Book(24, "Dune", "Frank Herbert", "Science Fiction", 1965),
+            new Book(25, "The Subtle Art of Not Giving a F*ck", "Mark Manson", "Self-Help", 2016),
+            new Book(26, "Algorithms", "Robert Sedgewick", "Programming", 1983),
+            new Book(27, "A Brief History of Time", "Stephen Hawking", "Science", 1988),
+            new Book(28, "Thinking in Systems", "Donella Meadows", "Science", 2008),
+            new Book(29, "Rich Dad Poor Dad", "Robert Kiyosaki", "Business", 1997),
+            new Book(30, "Steve Jobs", "Walter Isaacson", "Biography", 2011),
+
+            new Book(31, "Java Concurrency in Practice", "Brian Goetz", "Programming", 2006),
+            new Book(32, "Ender's Game", "Orson Scott Card", "Science Fiction", 1985),
+            new Book(33, "The Four Agreements", "Don Miguel Ruiz", "Self-Help", 1997),
+            new Book(34, "The Lean Product Playbook", "Dan Olsen", "Business", 2015),
+            new Book(35, "Design Patterns", "Erich Gamma", "Programming", 1994),
+            new Book(36, "The Catch-22", "Joseph Heller", "Fiction", 1961),
+            new Book(37, "The Martian", "Andy Weir", "Science Fiction", 2011),
+            new Book(38, "Grit", "Angela Duckworth", "Self-Help", 2016),
+            new Book(39, "Zero to One", "Peter Thiel", "Business", 2014),
+            new Book(40, "The Code Book", "Simon Singh", "Science", 1999),
+
+            new Book(41, "Refactoring", "Martin Fowler", "Programming", 1999),
+            new Book(42, "Brave New World", "Aldous Huxley", "Dystopian", 1932),
+            new Book(43, "The Power of Now", "Eckhart Tolle", "Self-Help", 1997),
+            new Book(44, "The Innovator's Dilemma", "Clayton Christensen", "Business", 1997),
+            new Book(45, "Java: The Complete Reference", "Herbert Schildt", "Programming", 2018),
+            new Book(46, "Catch Me If You Can", "Frank Abagnale", "Biography", 1980),
+            new Book(47, "Harry Potter and the Chamber of Secrets", "J.K. Rowling", "Fantasy", 1998),
+            new Book(48, "The Stand", "Stephen King", "Horror", 1978),
+            new Book(49, "Man’s Search for Meaning", "Viktor Frankl", "Psychology", 1946),
+            new Book(50, "Drive", "Daniel Pink", "Self-Help", 2009),
+
+            new Book(51, "Introduction to Algorithms", "Thomas H. Cormen", "Programming", 2009),
+            new Book(52, "Fahrenheit 451", "Ray Bradbury", "Dystopian", 1953),
+            new Book(53, "Quiet", "Susan Cain", "Psychology", 2012),
+            new Book(54, "Outliers", "Malcolm Gladwell", "Self-Help", 2008),
+            new Book(55, "The Design of Everyday Things", "Don Norman", "Design", 1988),
+            new Book(56, "The Shining", "Stephen King", "Horror", 1977),
+            new Book(57, "Thinking Like a Programmer", "V. Anton Spraul", "Programming", 2008),
+            new Book(58, "The Lean UX", "Jeff Gothelf", "Business", 2013),
+            new Book(59, "The War of Art", "Steven Pressfield", "Self-Help", 2002),
+            new Book(60, "The Silmarillion", "J.R.R. Tolkien", "Fantasy", 1977),
+
+            new Book(61, "Effective Python", "Brett Slatkin", "Programming", 2015),
+            new Book(62, "The Hitchhiker's Guide to the Galaxy", "Douglas Adams", "Science Fiction", 1979),
+            new Book(63, "On Writing", "Stephen King", "Biography", 2000),
+            new Book(64, "Thinking, Fast and Slow", "Daniel Kahneman", "Psychology", 2011),
+            new Book(65, "The Black Swan", "Nassim Nicholas Taleb", "Business", 2007),
+            new Book(66, "The Name of the Rose", "Umberto Eco", "Fiction", 1980),
+            new Book(67, "Head First Design Patterns", "Eric Freeman", "Programming", 2004),
+            new Book(68, "The Girl with the Dragon Tattoo", "Stieg Larsson", "Fiction", 2005),
+            new Book(69, "The 7 Habits of Highly Effective People", "Stephen Covey", "Self-Help", 1989),
+            new Book(70, "Cosmos", "Carl Sagan", "Science", 1980),
+
+            new Book(71, "The Catcher in the Rye", "J.D. Salinger", "Fiction", 1951),
+            new Book(72, "Life 3.0", "Max Tegmark", "Science", 2017),
+            new Book(73, "Java Performance", "Scott Oaks", "Programming", 2014),
+            new Book(74, "Neuromancer", "William Gibson", "Science Fiction", 1984),
+            new Book(75, "The Art of Computer Programming", "Donald Knuth", "Programming", 1968),
+            new Book(76, "The Stand", "Stephen King", "Horror", 1978),
+            new Book(77, "The Lean Startup", "Eric Ries", "Business", 2011),
+            new Book(78, "Atomic Habits", "James Clear", "Self-Help", 2018),
+            new Book(79, "Daring Greatly", "Brené Brown", "Self-Help", 2012),
+            new Book(80, "The Wright Brothers", "David McCullough", "Biography", 2015),
+
+            new Book(81, "Mastering Regular Expressions", "Jeffrey Friedl", "Programming", 2006),
+            new Book(82, "The Book Thief", "Markus Zusak", "Fiction", 2005),
+            new Book(83, "The Mythical Man-Month", "Frederick P. Brooks Jr.", "Programming", 1975),
+            new Book(84, "The Dark Tower: The Gunslinger", "Stephen King", "Fantasy", 1982),
+            new Book(85, "The Innovators", "Walter Isaacson", "Biography", 2014),
+            new Book(86, "Crucial Conversations", "Kerry Patterson", "Self-Help", 2002),
+            new Book(87, "The Road to Reality", "Roger Penrose", "Science", 2004),
+            new Book(88, "Game of Thrones", "George R.R. Martin", "Fantasy", 1996),
+            new Book(89, "The Design of Everyday Things", "Don Norman", "Design", 1988),
+            new Book(90, "The Art of Thinking Clearly", "Rolf Dobelli", "Self-Help", 2011),
+
+            new Book(91, "Patterns of Enterprise Application Architecture", "Martin Fowler", "Programming", 2002),
+            new Book(92, "The Catcher in the Rye", "J.D. Salinger", "Fiction", 1951),
+            new Book(93, "Drive", "Daniel Pink", "Self-Help", 2009),
+            new Book(94, "The Prince", "Niccolò Machiavelli", "Philosophy", 1532),
+            new Book(95, "Blink", "Malcolm Gladwell", "Psychology", 2005),
+            new Book(96, "Java Concurrency in Practice", "Brian Goetz", "Programming", 2006),
+            new Book(97, "The Lean Six Sigma Pocket Toolbook", "Michael L. George", "Business", 2004),
+            new Book(98, "Born a Crime", "Trevor Noah", "Biography", 2016),
+            new Book(99, "The Art of War", "Sun Tzu", "Philosophy", -500),
+            new Book(100, "Ender's Game", "Orson Scott Card", "Science Fiction", 1985),
+            new Book(101, "Thinking in Java", "Bruce Eckel", "Programming", 2006),
+            new Book(102, "The Subtle Art of Not Giving a F*ck", "Mark Manson", "Self-Help", 2016)
+    );
+
+    public static Book getBookById(int id) {
+        return books.stream().filter(b -> b.getBookId() == id).findFirst().orElse(null);
+    }
+}
